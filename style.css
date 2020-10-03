@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url(font/Oxygen-Bold.otf)
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+#site-home {
+    background: lavender;
+    height: 800px;
+}
+.site {
+    background-color: lavender;
+}
+#musthead {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 3000;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+}
+.site-menu {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.site-logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 35%;
+    display: flex;
+}
+.logo-style {
+    width: 100%;
+}
+.main-nav {
+    float: left;
+    width: 42%;
+    display: block !important;
+    text-align: right;
+    position: relative;
+    padding: 10px;
+    padding-top: 12px;
+}
+.menu-container {
+    text-align: center;
+    font-family: 'Oxygen';
+}
+.nav-opt {
+    padding: 8px;
+    font-size: 17px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #0bb3e4;
+}
+.active {
+    color: #0bb3e4;
+}
+.active:hover {
+    color: #fff;
+}
+#social-nav {
+    float: left;
+    width: 20%;
+    display: block !important;
+    text-align: left;
+    position: relative;
+    padding: 9px;
+    margin-left: -25px;
+    padding-top: revert;
+}
+.fa {
+    padding: 10px;
+    font-size: 22px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 5px;
+    border-radius: 50%;
+}
+.fa-facebook {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    color: black;
+}
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+    border-color: transparent;
+}
+.fa-twitter {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    color: black;
+}
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+    border-color: transparent;
+}
+.fa-instagram {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    color: black;
+}
+.fa-instagram:hover {
+    background: #125688;
+    color: white;
+    border-color: transparent;
+}
+.fa-youtube {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    color: black;
+}
+.fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+    border-color: transparent;
+}
+.intro-section {
+    
+}
