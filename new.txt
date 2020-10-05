@@ -1,0 +1,19 @@
+<img src="image/logo1.jpg" alt="company logo" class="exp-logo">
+<img src="image/logo2.jpg" alt="company logo" class="exp-logo">
+<img src="image/logo3.jpg" alt="company logo" class="exp-logo">
+<img src="image/logo4.jpg" alt="company logo" class="exp-logo">
+
+
+
+<div class="exp-cell two">
+    <h3><a href="#">UI/UX Designer - Creative Mint</a></h3>
+    <p>UI/UX Designer - Creative Mint. There is evidence that preceptions of beauty are evolutionary,...</p>
+</div>
+<div class="exp-cell three">
+    <h3><a href="#">UI/UX Designer - Creative Mint</a></h3>
+    <p>UI/UX Designer - Creative Mint. There is evidence that preceptions of beauty are evolutionary,...</p>
+</div>
+<div class="exp-cell four">
+    <h3><a href="#">UI/UX Designer - Creative Mint</a></h3>
+    <p>UI/UX Designer - Creative Mint. There is evidence that preceptions of beauty are evolutionary,...</p>
+</div> 

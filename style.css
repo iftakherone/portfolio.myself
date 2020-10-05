@@ -27,10 +27,9 @@ body {
     background-color: #dddddd;
 }
 #site-home {
-    height: 640px;
+    height: 739px;
 }
 #musthead {
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -150,7 +149,6 @@ a:hover {
 #intro-section {
     width: 100%;
     height: 80%;
-    margin-top: 7%;
     display: block;
 }
 .wrapper {
@@ -164,7 +162,7 @@ a:hover {
     margin-top: 5%;
     text-align: center;
 }
-.one {
+.text-clone {
     width:45%; 
     margin-top:0;
 }
@@ -214,25 +212,31 @@ button {
     height: 100px;
     padding: 30px 100px;
 }
-.table-cell1 {
+.container {
     padding: 0 72px;
 }
 .logo-exp {
     display: flex;
     margin-top: 6%;
 }
+.logo-exp-wrapper {
+    position: relative;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
 .exp-logo {
-    width: 300px;
-    height: 280px;
-    float: left;
+    height: 250px;
+    vertical-align: middle;
 }
 .exp-cell {
-    width: 240px;
-    height: 230px;
-    float: left;
-    background-color: white;
-    padding: 20px 30px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    height: 85%;
+    padding: 20px;
+    bottom: 0;
+    width: fit-content;
+    margin: auto;
 }
 .exp-cell a {
     text-decoration: none;
@@ -247,6 +251,38 @@ button {
 .exp-cell p {
     font-family: 'latoMedium';
 }
+.one {
+    /* background-image: url(image/logo1.jpg);
+    background-repeat: no-repeat; */
+    width: 240px;
+    height: 230px;
+    float: left;
+}
+.two {
+    background-image: url(image/logo2.jpg);
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 230px;
+    float: left;
+}
+.three {
+    background-image: url(image/logo3.jpg);
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 230px;
+    float: left;
+}
+.four {
+    background-image: url(image/logo4.jpg);
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 230px;
+    float: left;
+}
+
+
+
+
 
 
 #site-skills {
