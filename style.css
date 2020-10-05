@@ -2,6 +2,18 @@
     font-family: 'Oxygen';
     src: url(font/Oxygen-Bold.otf)
 }
+@font-face {
+    font-family: 'roboto-slab-light';
+    src: url(font/roboto-slab.light.ttf)
+}
+@font-face {
+    font-family: 'roboto-slab-regular';
+    src: url(font/roboto-slab.regular.ttf)
+}
+@font-face {
+    font-family: 'latoMedium';
+    src: url(font/Lato-Medium.ttf)
+}
 * {
     box-sizing: inherit;
 }
@@ -9,13 +21,13 @@ body {
     margin: 0;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
+    background-color: #dddddd;
+}
+#demo-page {
+    background-color: #dddddd;
 }
 #site-home {
-    background: lavender;
-    height: 800px;
-}
-.site {
-    background-color: lavender;
+    height: 640px;
 }
 #musthead {
     position: absolute;
@@ -27,6 +39,9 @@ body {
     padding: 20px 0;
     transition: all 0.3s ease-in-out;
     display: flex;
+}
+.must {
+    display: block;
 }
 .site-menu {
     width: 90%;
@@ -65,10 +80,10 @@ a {
     color: black;
 }
 a:hover {
-    color: #0bb3e4;
+    color: #152944;
 }
 .active {
-    color: #0bb3e4;
+    color: #152944;
 }
 .active:hover {
     color: #fff;
@@ -132,6 +147,139 @@ a:hover {
     color: white;
     border-color: transparent;
 }
-.intro-section {
-    
+#intro-section {
+    width: 100%;
+    height: 80%;
+    margin-top: 7%;
+    display: block;
+}
+.wrapper {
+    display: fleax;
+    padding: 40px 0;
+}
+.text {
+    padding: 40px;
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    text-align: center;
+}
+.one {
+    width:45%; 
+    margin-top:0;
+}
+.text h2 {
+    font-size: 60px;
+    font-family: 'roboto-slab-light';
+}
+.text p {
+    font-family: 'latoMedium';
+    font-size: 20px;
+}
+button {
+    padding: 17px;
+    border: none;
+    border-radius: 25px;
+    background-color: #d9adad;
+    font-size: 19px;
+    outline: none;
+    margin-top: 25px;
+    font-family: 'roboto-slab-regular';
+}
+.image {
+    width: 40%;
+    float: right;
+}
+.hero-image {
+    height: 600px;
+    width: 500px;
+}
+.hero-image2 {
+    height: 460px;
+    width: 520px;
+    margin-top: 35px;
+}
+#site-details {
+    height: 625px;
+    background-color: #d9adad;
+}
+
+
+
+#site-experience {
+    height: 593px;
+    background-color: #84a9ac;
+}
+.txt {
+    height: 100px;
+    padding: 30px 100px;
+}
+.table-cell1 {
+    padding: 0 72px;
+}
+.logo-exp {
+    display: flex;
+    margin-top: 6%;
+}
+.exp-logo {
+    width: 300px;
+    height: 280px;
+    float: left;
+}
+.exp-cell {
+    width: 240px;
+    height: 230px;
+    float: left;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.exp-cell a {
+    text-decoration: none;
+    color:  #152944
+}
+.exp-cell a:hover {
+    color: #67b931;
+} 
+.exp-cell h3 {
+    font-family: 'roboto-slab-regular';
+}
+.exp-cell p {
+    font-family: 'latoMedium';
+}
+
+
+#site-skills {
+    height: 625px;
+    background-color:  #89c9b8;
+}
+
+
+#site-about {
+    height: 625px;
+    background-color: #dddddd;
+}
+
+
+#site-portfolio {
+    height: 625px;
+    background-color: #d9adad;
+}
+
+
+#site-blog {
+    height: 625px;
+    background-color: #84a9ac;
+}
+
+
+#site-contact {
+    height: 625px;
+    background-color: #89c9b8;
+}
+
+
+#site-footer {
+    height: 350px;
+    background-color: #dddddd;
 }
