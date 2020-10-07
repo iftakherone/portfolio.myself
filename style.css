@@ -307,15 +307,16 @@ button {
     width: 80%;
     background-color: #152944;
 }
-#education {
+#site-education {
     display: block;
-    background-color:  #89c9b8;
+    height: 700px;
+    background-color: #dddddd;
 }
-.pattern-clone {
-    padding: 25px;
+.clone {
+    padding: 0 25px;
 }
 .timeline {
-    padding: 20px;
+    padding: 0 20px;
 }
 .part1 {
     width: 99%;
@@ -339,27 +340,35 @@ button {
 
 
 #site-about {
-    height: 600px;
-    background-color: #d9adad;
-    padding: 20px 100px;
+    height: 630px;
+    background-image: url(image/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+.about-content {
+    background-color: #d9adad;
+    height: 100%;
+    opacity: 0.8;
+}
+
 
 
 #site-portfolio {
     height: 625px;
-    background-color:  #84a9ac;
+    background-color: ;
 }
 
 
 #site-blog {
     height: 625px;
-    background-color:#dddddd;
+    background-color: #84a9ac;
 }
 
 
 #site-contact {
     height: 625px;
-    background-color: #a2d3dd;
+    background-color: #dddddd;
 }
 
 
