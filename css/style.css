@@ -79,13 +79,13 @@ a {
     color: black;
 }
 a:hover {
-    color: #152944;
+    color: #ffffff;
 }
 .active {
-    color: #152944;
+    color: #ffffff;
 }
 .active:hover {
-    color: #fff;
+    color: #152944;
 }
 #social-nav {
     float: left;
@@ -421,6 +421,39 @@ button {
 
 
 #site-footer {
-    height: 350px;
+    height: 450px;
     background-color: #d9adad;
+}
+.side-row1{
+    height: 70%;
+    width: auto;
+    padding: 10px 50px;
+    display: table;
+}
+.side-col1 {
+    width: 35%;
+    padding: 15px;
+    float: left;
+}
+.side-col2 {
+    width: 12%;
+    padding: 15px;
+    float: left;
+    line-height: 30px;
+}
+.sied-row2 {
+    width: 90%;
+    height: 30%;
+    display: flex;
+}
+.side-col3 {
+    width: 75%;
+    float: left;
+    text-align: center;
+}
+.side-col4 {
+    width: 22%;
+    float: right;
+    text-align: center;
+    padding: 16px;
 }
