@@ -76,16 +76,16 @@ body {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: #3a3a3a;
 }
 a:hover {
-    color: #ffffff;
+    color: white;
 }
 .active {
-    color: #ffffff;
+    color: #152944;
 }
 .active:hover {
-    color: #152944;
+    color: #ffffff;
 }
 #social-nav {
     float: left;
@@ -307,6 +307,9 @@ button {
     width: 70%;
     background-color: #152944;
 }
+
+
+
 #site-education {
     display: block;
     height: 700px;
@@ -407,16 +410,89 @@ button {
 
 
 
+
 #site-blog {
     height: 625px;
     background-color: #89c9b8;
 }
+.slice-wrapper {
+    padding: 15px;
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+.slice {
+    width: 300px;
+    height: 500px;
+    background-color: #aaa;
+}
+.slice-clone {
+    width: 300px;
+    height: 500px;
+    background-color: #ccc;
+    margin-top: 35px;
+}
+.slice-image {
+    height: 280px;
+    width: 300px;
+}
+.slice-links {
+    text-align: center;
+}
+
 
 
 #site-contact {
     height: 625px;
-    background-color: #dddddd;
+    background-image: url(/image/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+.cover {
+    width: 95%;
+    display: flex;
+    padding: 15px 10px;
+    margin: auto;
+}
+.contact {
+    padding: 50px;
+    float: left;
+    width: 42%;
+    margin: auto;
+}
+.contact input[type="text"], [type="email"] {
+    padding: 10px;
+    width: 96%;
+    font-size: 18px;
+    font-family: 'latoMedium';
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.contact input[type="submit"] {
+    width: 10%;
+    padding: 8px;
+    background-color: #89c9b8;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: 'latoMedium';
+    float: right;
+}
+.contact input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+textarea {
+    font-size: 18px;
+    font-family: 'latoMedium';
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
 
 
 
@@ -450,6 +526,7 @@ button {
     width: 75%;
     float: left;
     text-align: center;
+    font-family: 'roboto-slab-regular';
 }
 .side-col4 {
     width: 22%;
