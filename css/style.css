@@ -443,11 +443,8 @@ button {
 
 
 #site-contact {
-    height: 625px;
-    background-image: url(/image/contact-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 725px;
+    background-color: #dddddd;
 }
 .cover {
     width: 95%;
@@ -456,43 +453,65 @@ button {
     margin: auto;
 }
 .contact {
-    padding: 50px;
+    padding: 55px 30px;
     float: left;
-    width: 42%;
-    margin: auto;
+    width: 30%;
 }
-.contact input[type="text"], [type="email"] {
-    padding: 10px;
-    width: 96%;
+.contact-box {
+    padding: 50px;
+    width: 95%;
+    margin: auto;
+    display: table;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name1 {
+    width: 50%;
+    float: left;
+    margin-bottom: 2%;
+}
+.name2 {
+    width: 50%;
+    float: right;
+    margin-bottom: 2%;
+}
+.contact input[type="text"] {
+    padding: 8px;
+    width: 85%;
     font-size: 18px;
     font-family: 'latoMedium';
-    border: none;
-    border-radius: 10px;
-    outline: none;
+    
+}
+.red {
+    color: red;
+}
+.contact input[type="email"], [type="subject"] {
+    padding: 8px;
+    width: 93%;
+    font-size: 18px;
+    font-family: 'latoMedium';
+    margin-bottom: 2%;
+}
+textarea {
+    width: 95%;
+    font-size: 18px;
+    font-family: 'latoMedium';
+    padding: 5px;
+    margin-bottom: 2%;
 }
 .contact input[type="submit"] {
-    width: 10%;
+    background-color: purple;
     padding: 8px;
-    background-color: #89c9b8;
-    border: none;
-    border-radius: 10px;
-    outline: none;
+    width: 93%;
     font-size: 18px;
     font-family: 'latoMedium';
-    float: right;
+    margin-bottom: 5%;
+    color: white;
 }
 .contact input[type="submit"]:hover {
     background-color: black;
     color: white;
 }
-textarea {
-    font-size: 18px;
-    font-family: 'latoMedium';
-    padding: 5px;
-    border: none;
-    border-radius: 10px;
-}
-
 
 
 
