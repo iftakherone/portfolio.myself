@@ -443,7 +443,7 @@ button {
 
 
 #site-contact {
-    height: 725px;
+    height: 750px;
     background-color: #dddddd;
 }
 .cover {
@@ -505,13 +505,17 @@ textarea {
     width: 93%;
     font-size: 18px;
     font-family: 'latoMedium';
-    margin-bottom: 5%;
+    margin-bottom: 6%;
     color: white;
 }
 .contact input[type="submit"]:hover {
     background-color: black;
     color: white;
 }
+.contact-details {
+    padding: 15px 0;
+}
+
 
 
 
