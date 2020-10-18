@@ -443,7 +443,7 @@ button {
 
 
 #site-contact {
-    height: 750px;
+    height: 815px;
     background-color: #dddddd;
 }
 .cover {
@@ -455,11 +455,11 @@ button {
 .contact {
     padding: 55px 30px;
     float: left;
-    width: 30%;
+    width: 39%;
 }
 .contact-box {
     padding: 50px;
-    width: 95%;
+    width: 81%;
     margin: auto;
     display: table;
     background-color: white;
@@ -500,20 +500,47 @@ textarea {
     margin-bottom: 2%;
 }
 .contact input[type="submit"] {
-    background-color: purple;
+    background-color: rgb(171, 171, 238);
     padding: 8px;
     width: 93%;
     font-size: 18px;
     font-family: 'latoMedium';
     margin-bottom: 6%;
-    color: white;
+    color: black;
 }
 .contact input[type="submit"]:hover {
-    background-color: black;
+    background-color: purple;
     color: white;
 }
 .contact-details {
     padding: 15px 0;
+}
+.help {
+    float: right;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.help-option {
+    padding-top: 25px;
+}
+.help-one {
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.help-two {
+    width: 90%;
+}
+.help-three {
+    width: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.help-logo {
+    color: #aaa;
 }
 
 
