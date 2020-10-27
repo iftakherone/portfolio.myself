@@ -479,8 +479,7 @@ button {
     padding: 8px;
     width: 85%;
     font-size: 18px;
-    font-family: 'latoMedium';
-    
+    font-family: 'latoMedium'; 
 }
 .red {
     color: red;
@@ -502,11 +501,14 @@ textarea {
 .contact input[type="submit"] {
     background-color: rgb(171, 171, 238);
     padding: 8px;
-    width: 93%;
+    width: 94%;
     font-size: 18px;
     font-family: 'latoMedium';
     margin-bottom: 6%;
     color: black;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact input[type="submit"]:hover {
     background-color: purple;
@@ -540,7 +542,8 @@ textarea {
     margin-bottom: auto;
 }
 .help-logo {
-    color: #aaa;
+    color: #aaaaaa;
+    width: 15%;
 }
 
 
