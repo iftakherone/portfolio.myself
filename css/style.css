@@ -399,11 +399,44 @@ button {
   height: 625px;
   background-color: #89c9b8;
 }
+.slice-menu {
+  width: 14%;
+  height: 100%;
+  margin-left: 2%;
+  float: left;
+}
+.slice-menu input {
+  width: auto;
+  padding: 0;
+  margin-bottom: 0;
+}
+.slice-menu label {
+  display: inline;
+  font-size: 15px;
+}
+.slice-subscribe {
+  margin-top: 25%;
+  text-align: center;
+}
+.slice-subscribe-btn {
+  text-align: center;
+}
+.slice-menu input[type=name] {
+  padding: 7px;
+  border: none;
+  border-radius: 25px;
+}
+.subs {
+  width: 60%;
+  padding: 3px;
+  font-size: 16px;
+}
 .slice-wrapper {
   padding: 15px;
   display: flex;
   width: 75%;
   margin: auto;
+  float: left;
 }
 .slice {
   width: 300px;
@@ -423,6 +456,14 @@ button {
 .slice-links {
   text-align: center;
 }
+.slice-margin {
+  margin-left: 0;
+  margin-right: 2%;
+}
+
+
+
+
 
 #site-contact {
   background-color: #dddddd;
@@ -504,9 +545,6 @@ textarea {
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.help-option {
 }
 .help-one {
   display: flex;
